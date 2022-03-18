@@ -46,7 +46,7 @@ El JSON está estructurado como un tipo de dato objeto, de la siguiente manera :
 ### Proceso de incorporación.
 
 1. Cree 2 nuevos campos de perfil de usuario (departamento / municipio), en nombre corto ud está definiendo el ID, así que si lo cambia, es decir, no hace uso de departamento y municipio, asegurese de modificar las constantes definidas en el script.   En estos dos nuevos campos, debe definir la lista de departamentos y municipios según correspona, y en ambos casos agregar una opcion extra: DOES NOT APPLY.
-![alt text](https://github.com/natisbar/selectDynamic_Moodle_department-municipalities_/blob/master/departamentList.png?raw=true)
+![alt text](https://github.com/natisbar/selectDynamic_Moodle_department-municipalities_/blob/main/departamentList.png?raw=true)
 
 2. En HTML Adicional, en la sección "Dentro del HEAD", incorpore la librería jQuery: <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 3. Dentro del script actualice la URL de su JSON en la const correspondiente, y asegúrese de definir el pais sobre el que trabajará, pues actualmente está diseñado para COLOMBIA (ver const SELECTED_COUNTRY = "CO")
