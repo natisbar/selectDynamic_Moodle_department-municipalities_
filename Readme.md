@@ -1,4 +1,4 @@
-# Block_configuration_moodle
+# Select_Dinamic_Moodle
 
 ### **Tested on Moodle 3.10.9, but it is functional in other versions**
 ### **Support this development 🤝 [Paypal](https://www.paypal.com/paypalme/natisbar)**
